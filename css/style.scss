@@ -1,0 +1,21 @@
+header{
+  .navbar-brand{
+    margin-right: 40px;
+  }
+
+  .nav-item{
+    a{
+      &:hover{
+        text-decoration: line-through;
+      }
+    }
+  }
+  .main_baner{
+    background-color: black;
+    height: 100vh;
+    background-image: url("../images/clean.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 45px;
+  }
+}
